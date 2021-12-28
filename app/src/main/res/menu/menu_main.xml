@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/intelligentFragment"
+        android:title="智能生活"
+        android:icon="@drawable/sel_btn_home_page"/>
+
+    <item android:id="@+id/remoteControl"
+        android:title="手机遥控器"
+        android:icon="@drawable/sel_btn_community"/>
+
+    <item android:id="@+id/mobileInternetFragment"
+        android:title="手机互联"
+        android:icon="@drawable/sel_btn_notification"/>
+
+    <item android:id="@+id/personalCenterFragment"
+        android:title="个人中你想你"
+        android:icon="@drawable/sel_btn_mine"/>
+</menu>

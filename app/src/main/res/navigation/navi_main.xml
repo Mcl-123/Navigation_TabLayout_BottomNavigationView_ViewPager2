@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_main"
+    app:startDestination="@id/intelligentFragment">
+
+    <fragment
+        android:id="@+id/intelligentFragment"
+        android:name="com.maxus.intelligentlife.ui.intelligent.IntelligentFragment"
+        android:label="fragment_intelligent"
+        tools:layout="@layout/fragment_intelligent" />
+    <fragment
+        android:id="@+id/deviceFragment"
+        android:name="com.maxus.intelligentlife.ui.intelligent.device.DeviceFragment"
+        android:label="fragment_device"
+        tools:layout="@layout/fragment_device" />
+    <fragment
+        android:id="@+id/sceneFragment"
+        android:name="com.maxus.intelligentlife.ui.intelligent.scene.SceneFragment"
+        android:label="fragment_scene"
+        tools:layout="@layout/fragment_scene" />
+    <fragment
+        android:id="@+id/remoteControl"
+        android:name="com.maxus.intelligentlife.ui.remotecontrol.RemoteControlFragment"
+        android:label="fragment_remote_control"
+        tools:layout="@layout/fragment_remote_control" />
+    <fragment
+        android:id="@+id/mobileInternetFragment"
+        android:name="com.maxus.intelligentlife.ui.mobileinternet.MobileInternetFragment"
+        android:label="fragment_mobile_internet"
+        tools:layout="@layout/fragment_mobile_internet" />
+    <fragment
+        android:id="@+id/personalCenterFragment"
+        android:name="com.maxus.intelligentlife.ui.personalcenter.PersonalCenterFragment"
+        android:label="fragment_personal_center"
+        tools:layout="@layout/fragment_personal_center" />
+</navigation>
